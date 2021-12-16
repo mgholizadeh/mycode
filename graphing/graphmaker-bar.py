@@ -22,7 +22,7 @@ def main():
     plt.title("2018 Network Summary")
     plt.xticks(ind, ("Q1", "Q2", "Q3", "Q4"))
     plt.yticks(np.arange(0, 81, 10))
-    plt.legend((p1[0], p2[0]), ("LAN", "WAN"))
+    plt.legend((p1[1], p2[2]), ("LAN", "WAN"))
 
     # display the graph
     # plt.show() # you can try this on a Python IDE with a GUI if you'd like
